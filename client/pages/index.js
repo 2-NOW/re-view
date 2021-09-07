@@ -1,7 +1,9 @@
-const Index = () => (
-  <div>
-    <p>hello next</p>
-  </div>
-);
+import Header from '../components/Header';
 
-export default Index;
+export default function Home() {
+  return (
+    <>
+      <Header />
+    </>
+  );
+}
